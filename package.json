@@ -71,6 +71,7 @@
     "eslint": "^8.29.0",
     "@electron/notarize": "^1.2.3",
     "electron-builder-notarize": "^1.5.0",
+
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-header": "^3.1.1",
     "eslint-plugin-prettier": "^4.0.0",
@@ -119,7 +120,8 @@
       "executableName": "alephium",
       "target": [
         "AppImage",
-        "deb"
+        "deb",
+        "snap"
       ]
     },
     "productName": "Alephium",
